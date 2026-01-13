@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942c88ab66ca63446918209c6abecf1a, type: 3}
+  m_Name: 0002_Ivysaur
+  m_EditorClassIdentifier: Assembly-CSharp::Pokemon
+  pokemonName: Ivysaur
+  sprite: {fileID: -587157824, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
+  pokedexNumber: 2
+  form: 0
+  types: 0b00000003000000
+  eggGroups: 0700000001000000
+  abilities: 410000004100000022000000
+  bodyColor: 3
+  species: Seed
+  stats: 000000000000000000000000000000000000000000000000
+  catchRate: 0
+  baseExp: 0
+  evYield: 000000000000000000000000000000000000000000000000
+  genderRatio: 0
+  eggCycles: 0
+  baseFriendship: 0
+  growthRate: 0
+  dexEntry: 
+  height: 0
+  weight: 0
+  gameAvailability:
+    onRedBlueGreen: 1
+    onYellow: 1
+    onGoldSilver: 1
+    onCrystal: 1
+    onRubySapphire: 1
+    onFireRedLeafGreen: 1
+    onEmerald: 1
+    onDiamondPearl: 1
+    onPlatinum: 1
+    onHeartGoldSoulSilver: 1
+    onBlackWhite: 1
+    onBlack2White2: 1
+    onXY: 1
+    onOmegaRubyAlphaSapphire: 1
+    onSunMoon: 1
+    onUltraSunUltraMoon: 1
+    onLetsGoPikachuEevee: 1
+    onSwordShield: 1
+    onBrilliantDiamondShiningPearl: 1
+    onLegendsArceus: 0
+    onScarletViolet: 1
+    onLegendsZA: 1

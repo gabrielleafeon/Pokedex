@@ -1,27 +1,29 @@
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Pokemon", menuName = "Pokémon/Create New Pokémon")]
 public class Pokemon : ScriptableObject
 {
     [SerializeField] string pokemonName;
+    [SerializeField] Sprite sprite;
     [SerializeField] int pokedexNumber;
-    [SerializeField] int form;
-    [SerializeField] int[] stats = new int[6]; //Order: HP Atk Def Sp.Atk Sp.Def Speed
+    [SerializeField] int form;   
     [SerializeField] Types[] types = new Types[2];
+    [SerializeField] EggGroups[] eggGroups = new EggGroups[2];
+    [SerializeField] Abilities[] abilities = new Abilities[3];
+    [SerializeField] BodyColor bodyColor;
+    [SerializeField] string species;
+
+    [Space(20)]
+    [Header("Extra Info")]
+    [SerializeField] int[] stats = new int[6]; //Order: HP Atk Def Sp.Atk Sp.Def Speed
     [SerializeField] int catchRate;
     [SerializeField] int baseExp;
     [SerializeField] int[] evYield = new int[6]; //Order: HP Atk Def Sp.Atk Sp.Def Speed
     [SerializeField] float genderRatio;
     [SerializeField] int eggCycles;
     [SerializeField] int baseFriendship;
-    [SerializeField] GrowthRate growthRate;
-    [SerializeField] EggGroups[] eggGroups = new EggGroups[2];
-    [SerializeField] Abilities[] abilities = new Abilities[3];
-    [SerializeField] BodyColor bodyColor;
+    [SerializeField] GrowthRate growthRate;    
     [SerializeField] string dexEntry;
-    [SerializeField] string species;
     [SerializeField] float height;
     [SerializeField] float weight;
 
@@ -34,6 +36,15 @@ public class Pokemon : ScriptableObject
         private set
         {
             pokemonName = value;
+        }
+    }
+
+    public Sprite Sprite
+    {
+        get => sprite;
+        private set
+        {
+            sprite = value;
         }
     }
 
