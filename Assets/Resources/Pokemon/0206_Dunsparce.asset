@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 20000000320000009b000000
   bodyColor: 2
   species: Land Snake
+  pokemonShape: 12
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

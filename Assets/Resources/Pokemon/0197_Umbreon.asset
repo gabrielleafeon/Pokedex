@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 1c0000001c00000027000000
   bodyColor: 4
   species: Moonlight
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

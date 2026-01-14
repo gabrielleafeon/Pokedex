@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 3800000038000000b6000000
   bodyColor: 9
   species: Intertwining
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

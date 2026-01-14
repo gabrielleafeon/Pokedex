@@ -12,6 +12,7 @@ public class Pokemon : ScriptableObject
     [SerializeField] Abilities[] abilities = new Abilities[3];
     [SerializeField] BodyColor bodyColor;
     [SerializeField] string species;
+    [SerializeField] Shapes pokemonShape;
 
     [Space(20)]
     [Header("Extra Info")]
@@ -26,9 +27,10 @@ public class Pokemon : ScriptableObject
     [SerializeField] string dexEntry;
     [SerializeField] float height;
     [SerializeField] float weight;
+    [SerializeField] bool favorite;
 
     [Space(20)]
-    [SerializeField] GameAvailability gameAvailability;
+    [SerializeField] PlayableInGame gameAvailability;
 
     public string PokemonName
     {
@@ -191,6 +193,15 @@ public class Pokemon : ScriptableObject
         }
     }
 
+    public Shapes PokemonShape
+    {
+        get => pokemonShape;
+        private set
+        {
+            pokemonShape = value;
+        }
+    }
+
     public float Height
     {
         get => height;
@@ -209,7 +220,7 @@ public class Pokemon : ScriptableObject
         }
     }
 
-    public GameAvailability GameAvailability
+    public PlayableInGame GameAvailability
     {
         get => gameAvailability;
         private set

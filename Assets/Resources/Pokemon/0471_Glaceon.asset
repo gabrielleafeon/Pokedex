@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 510000005100000073000000
   bodyColor: 1
   species: Fresh Snow
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

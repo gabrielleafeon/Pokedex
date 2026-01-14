@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 0b0000000b0000005d000000
   bodyColor: 1
   species: Bubble Jet
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

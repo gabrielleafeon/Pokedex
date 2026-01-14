@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 0a0000000a0000005f000000
   bodyColor: 2
   species: Lightning
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

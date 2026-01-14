@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class PokedexMon : MonoBehaviour
 {
     [SerializeField] Pokemon pokemon;
-    [SerializeField] Image background;
+    [SerializeField] Image backgroundBorder1;
+    [SerializeField] Image backgroundBorder2;
     [SerializeField] Image pokemonImage;
     [SerializeField] TMP_Text pokemonName;
     [SerializeField] TMP_Text pokemonNumber;
@@ -21,7 +22,9 @@ public class PokedexMon : MonoBehaviour
     public void SetPokemon(Pokemon pokemon)
     {
         this.pokemon = pokemon;
-        background.color = PokedexStyleManager.ReturnColorBasedOnType(pokemon);
+        Color[] colors = PokedexStyleManager.ReturnColorBasedOnPokemon(pokemon);
+        backgroundBorder1.color = colors[0];
+        backgroundBorder2.color = colors[1];
         pokemonImage.sprite = pokemon.Sprite;
         pokemonName.text = pokemon.PokemonName;
         pokemonNumber.text = pokemon.PokedexNumber.ToString("D4");

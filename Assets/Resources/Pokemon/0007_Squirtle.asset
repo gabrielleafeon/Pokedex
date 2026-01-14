@@ -19,8 +19,9 @@ MonoBehaviour:
   types: 0a0000000a000000
   eggGroups: 0100000002000000
   abilities: 43000000430000002c000000
-  bodyColor: 9
+  bodyColor: 1
   species: Tiny Turtle
+  pokemonShape: 9
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0
@@ -32,26 +33,27 @@ MonoBehaviour:
   dexEntry: 
   height: 0
   weight: 0
+  favorite: 0
   gameAvailability:
-    onRedBlueGreen: 1
-    onYellow: 1
-    onGoldSilver: 1
-    onCrystal: 1
-    onRubySapphire: 1
-    onFireRedLeafGreen: 1
-    onEmerald: 1
-    onDiamondPearl: 1
-    onPlatinum: 1
-    onHeartGoldSoulSilver: 1
-    onBlackWhite: 1
-    onBlack2White2: 1
-    onXY: 1
-    onOmegaRubyAlphaSapphire: 1
-    onSunMoon: 1
-    onUltraSunUltraMoon: 1
-    onLetsGoPikachuEevee: 1
-    onSwordShield: 1
-    onBrilliantDiamondShiningPearl: 1
-    onLegendsArceus: 0
-    onScarletViolet: 1
-    onLegendsZA: 1
+    inRedBlueGreen: 0
+    inYellow: 0
+    inGoldSilver: 0
+    inCrystal: 0
+    inRubySapphire: 0
+    inFireRedLeafGreen: 0
+    inEmerald: 0
+    inDiamondPearl: 0
+    inPlatinum: 0
+    inHeartGoldSoulSilver: 0
+    inBlackWhite: 0
+    inBlack2White2: 0
+    inXY: 0
+    inOmegaRubyAlphaSapphire: 0
+    inSunMoon: 0
+    inUltraSunUltraMoon: 0
+    inLetsGoPikachuEevee: 0
+    inSwordShield: 0
+    inBrilliantDiamondShiningPearl: 0
+    inLegendsArceus: 0
+    inScarletViolet: 0
+    inLegendsZA: 0

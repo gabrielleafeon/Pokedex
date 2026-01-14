@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 410000004100000022000000
   bodyColor: 3
   species: Seed
+  pokemonShape: 4
   stats: 2d000000310000003100000041000000410000002d000000
   catchRate: 45
   baseExp: 64

@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 660000006600000022000000
   bodyColor: 3
   species: Verdant
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

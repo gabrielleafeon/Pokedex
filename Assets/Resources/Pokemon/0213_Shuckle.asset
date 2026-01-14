@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 05000000520000007e000000
   bodyColor: 2
   species: Mold
+  pokemonShape: 3
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

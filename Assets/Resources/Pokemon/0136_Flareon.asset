@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 12000000120000003e000000
   bodyColor: 0
   species: Flame
+  pokemonShape: 4
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

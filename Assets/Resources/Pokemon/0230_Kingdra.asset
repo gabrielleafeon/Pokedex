@@ -21,6 +21,7 @@ MonoBehaviour:
   abilities: 210000006100000006000000
   bodyColor: 1
   species: Dragon
+  pokemonShape: 8
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 942c88ab66ca63446918209c6abecf1a, type: 3}
-  m_Name: 0025_Pikachu
+  m_Name: 0026_Raichu
   m_EditorClassIdentifier: Assembly-CSharp::Pokemon
-  pokemonName: Pikachu
-  sprite: {fileID: -745866630, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
-  pokedexNumber: 25
+  pokemonName: Raichu
+  sprite: {fileID: -941702078, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
+  pokedexNumber: 26
   form: 0
   types: 0c0000000c000000
   eggGroups: 0600000005000000
   abilities: 09000000090000001f000000
   bodyColor: 2
   species: Mouse
-  pokemonShape: 4
+  pokemonShape: 9
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0
@@ -33,26 +33,27 @@ MonoBehaviour:
   dexEntry: 
   height: 0
   weight: 0
+  favorite: 0
   gameAvailability:
-    onRedBlueGreen: 0
-    onYellow: 0
-    onGoldSilver: 0
-    onCrystal: 0
-    onRubySapphire: 0
-    onFireRedLeafGreen: 0
-    onEmerald: 0
-    onDiamondPearl: 0
-    onPlatinum: 0
-    onHeartGoldSoulSilver: 0
-    onBlackWhite: 0
-    onBlack2White2: 0
-    onXY: 0
-    onOmegaRubyAlphaSapphire: 0
-    onSunMoon: 0
-    onUltraSunUltraMoon: 0
-    onLetsGoPikachuEevee: 0
-    onSwordShield: 0
-    onBrilliantDiamondShiningPearl: 0
-    onLegendsArceus: 0
-    onScarletViolet: 0
-    onLegendsZA: 0
+    inRedBlueGreen: 0
+    inYellow: 0
+    inGoldSilver: 0
+    inCrystal: 0
+    inRubySapphire: 0
+    inFireRedLeafGreen: 0
+    inEmerald: 0
+    inDiamondPearl: 0
+    inPlatinum: 0
+    inHeartGoldSoulSilver: 0
+    inBlackWhite: 0
+    inBlack2White2: 0
+    inXY: 0
+    inOmegaRubyAlphaSapphire: 0
+    inSunMoon: 0
+    inUltraSunUltraMoon: 0
+    inLetsGoPikachuEevee: 0
+    inSwordShield: 0
+    inBrilliantDiamondShiningPearl: 0
+    inLegendsArceus: 0
+    inScarletViolet: 0
+    inLegendsZA: 0
