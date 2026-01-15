@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,7 +16,11 @@ public class Pokedex : MonoBehaviour
     void Start()
     {
         currentPokemon = new List<PokedexMon>();
-        pokemonList = Resources.LoadAll<Pokemon>("Pokemon");       
+        pokemonList = Resources.LoadAll<Pokemon>("Pokemon");
+
+        //List<Func<Pokemon, bool>> allFilter = new List<Func<Pokemon, bool>>();
+        //Func<Pokemon, bool> filterFlying = (pkmn) => pkmn.Type[0] == Types.Flying;
+        //Func<Pokemon, bool> filterFighting = (pkmn) => pkmn.Type[0] == Types.Fighting;        
     }
 
     public void NationalDexOrder()

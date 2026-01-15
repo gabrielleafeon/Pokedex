@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 942c88ab66ca63446918209c6abecf1a, type: 3}
-  m_Name: 0009_Blastoise
+  m_Name: 0103_Exeggutor
   m_EditorClassIdentifier: Assembly-CSharp::Pokemon
-  pokemonName: Blastoise
-  sprite: {fileID: 1261174919, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
-  pokedexNumber: 9
+  pokemonName: Exeggutor
+  sprite: {fileID: 1510860364, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
+  pokedexNumber: 103
   form: 0
-  types: 0a0000000a000000
-  eggGroups: 0100000002000000
-  abilities: 43000000430000002c000000
-  bodyColor: 1
-  species: Shellfish
-  pokemonShape: 9
+  types: 0b0000000d000000
+  eggGroups: 0700000000000000
+  abilities: 22000000220000008b000000
+  bodyColor: 2
+  species: Coconut
+  pokemonShape: 1
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

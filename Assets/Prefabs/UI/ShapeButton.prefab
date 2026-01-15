@@ -84,7 +84,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3843011372655654756}
-  - component: {fileID: 299430227243102211}
+  - component: {fileID: 8377177468728618522}
   - component: {fileID: 5449673440235827002}
   - component: {fileID: 6203804020890475859}
   - component: {fileID: 809078613511165972}
@@ -115,7 +115,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &299430227243102211
+--- !u!114 &8377177468728618522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,11 +124,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7006362207293062597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c06f3e8fc8b04e140ae17cd354962cf5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d55a33f5f5df324981ca50b5769bd6f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FilterButton
+  m_EditorClassIdentifier: Assembly-CSharp::FilterShapeButton
   pokedex: {fileID: 0}
-  type: 0
   shape: 0
 --- !u!222 &5449673440235827002
 CanvasRenderer:
@@ -224,9 +223,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 6432815299004350802, guid: 491a6b7cd2e8724429f5abd972b73e86, type: 3}
-        m_TargetAssemblyTypeName: FilterButton, Assembly-CSharp
-        m_MethodName: filterPokemonnShape
+      - m_Target: {fileID: 8377177468728618522}
+        m_TargetAssemblyTypeName: FilterShapeButton, Assembly-CSharp
+        m_MethodName: FilterPokemon
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,3 +1,4 @@
+using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 
 public class PokedexFilter
@@ -8,5 +9,8 @@ public class PokedexFilter
     [SerializeField] bool[] isShape;
     [SerializeField] bool[] isAvailableInGame;
     [SerializeField] bool[] isGeneration;
+
+    [SerializeField] bool[] excludeType;
+    [SerializeField] bool[] extras;
     [SerializeField] bool isFavorite;
 }

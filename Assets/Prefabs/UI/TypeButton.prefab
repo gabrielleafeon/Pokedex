@@ -146,8 +146,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7254352967381044739}
+  - component: {fileID: 3356305952939497149}
   - component: {fileID: 3120529497934956738}
-  - component: {fileID: 6432815299004350802}
   - component: {fileID: 737246969094013220}
   - component: {fileID: 93042034882500943}
   m_Layer: 5
@@ -177,15 +177,7 @@ RectTransform:
   m_AnchoredPosition: {x: -200, y: 88.8}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3120529497934956738
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7016415605224124432}
-  m_CullTransparentMesh: 1
---- !u!114 &6432815299004350802
+--- !u!114 &3356305952939497149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,11 +186,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 7016415605224124432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c06f3e8fc8b04e140ae17cd354962cf5, type: 3}
+  m_Script: {fileID: 11500000, guid: c4d7ff3441aea0446ae03b70aa892ae9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FilterButton
+  m_EditorClassIdentifier: Assembly-CSharp::FilterTypeButton
   pokedex: {fileID: 0}
   type: 0
+--- !u!222 &3120529497934956738
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7016415605224124432}
+  m_CullTransparentMesh: 1
 --- !u!114 &737246969094013220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,9 +285,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 6432815299004350802}
-        m_TargetAssemblyTypeName: FilterButton, Assembly-CSharp
-        m_MethodName: filterPokemonnType
+      - m_Target: {fileID: 3356305952939497149}
+        m_TargetAssemblyTypeName: FilterTypeButton, Assembly-CSharp
+        m_MethodName: FilterPokemon
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

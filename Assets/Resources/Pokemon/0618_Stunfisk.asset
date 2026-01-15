@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 942c88ab66ca63446918209c6abecf1a, type: 3}
-  m_Name: 0026_Raichu_Alolan
+  m_Name: 0618_Stunfisk
   m_EditorClassIdentifier: Assembly-CSharp::Pokemon
-  pokemonName: Alolan Raichu
-  sprite: {fileID: 302574928, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
-  pokedexNumber: 26
+  pokemonName: Stunfisk
+  sprite: {fileID: -1142205633, guid: ff37cdf378d86be4aacc806b32e890fe, type: 3}
+  pokedexNumber: 618
   form: 0
-  types: 0c0000000d000000
-  eggGroups: 0600000005000000
-  abilities: cf000000cf00000000000000
+  types: 040000000c000000
+  eggGroups: 0b00000002000000
+  abilities: 090000000700000008000000
   bodyColor: 5
-  species: Mouse
-  pokemonShape: 9
+  species: Trap
+  pokemonShape: 2
   stats: 000000000000000000000000000000000000000000000000
   catchRate: 0
   baseExp: 0

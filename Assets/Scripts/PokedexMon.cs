@@ -22,7 +22,7 @@ public class PokedexMon : MonoBehaviour
     public void SetPokemon(Pokemon pokemon)
     {
         this.pokemon = pokemon;
-        Color[] colors = PokedexStyleManager.ReturnColorBasedOnPokemon(pokemon);
+        Color[] colors = PokedexStyleManager.ReturnColorBasedOnPokemonType(pokemon);
         backgroundBorder1.color = colors[0];
         backgroundBorder2.color = colors[1];
         pokemonImage.sprite = pokemon.Sprite;

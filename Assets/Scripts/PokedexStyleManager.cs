@@ -2,12 +2,17 @@ using UnityEngine;
 
 public static class PokedexStyleManager
 {
-    public static Color[] ReturnColorBasedOnPokemon(Pokemon pokemon)
+    public static Color[] ReturnColorBasedOnPokemonType(Pokemon pokemon)
     {
         Color[] colors = new Color[2];
         colors[0] = ReturnColorBasedOnType(pokemon.Type[0]);
         colors[1] = ReturnColorBasedOnType(pokemon.Type[1]);
         return colors;
+    }
+
+    public static Color ReturnColorBasedOnPokemonColor(Pokemon pokemon)
+    {
+        return ReturnColorBasedOnBodyColor(pokemon.BodyColor); ;
     }
 
     public static Color ReturnColorBasedOnType(Types type)
@@ -112,6 +117,55 @@ public static class PokedexStyleManager
         else
         {
             Debug.Log("No valid pokémon type");
+            return new Color(0, 0, 0);
+        }
+    }
+
+    public static Color ReturnColorBasedOnBodyColor(BodyColor bodyColor)
+    {
+        if (bodyColor == BodyColor.Red)
+        {
+            return Color.red;
+        }
+        else if (bodyColor == BodyColor.Blue)
+        {
+            return Color.blue;
+        }
+        else if (bodyColor == BodyColor.Yellow)
+        {
+            return Color.yellow;
+        }
+        else if (bodyColor == BodyColor.Green)
+        {
+            return Color.green;
+        }
+        else if (bodyColor == BodyColor.Black)
+        {
+            return Color.black;
+        }
+        else if (bodyColor == BodyColor.Brown)
+        {
+            return Color.brown;
+        }
+        else if (bodyColor == BodyColor.Purple)
+        {
+            return Color.purple;
+        }
+        else if (bodyColor == BodyColor.Gray)
+        {
+            return Color.gray;
+        }
+        else if (bodyColor == BodyColor.White)
+        {
+            return Color.gray8;
+        }
+        else if (bodyColor == BodyColor.Pink)
+        {
+            return Color.pink;
+        }
+        else
+        {
+            Debug.Log("No valid pokémon color");
             return new Color(0, 0, 0);
         }
     }
